@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Milo.iml" filepath="$PROJECT_DIR$/Milo.iml" />
-      <module fileurl="file://A:\Milo\MiloStory.iml" filepath="A:\Milo\MiloStory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiloStory.iml" filepath="$PROJECT_DIR$/MiloStory.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://A:\Milo\app\app.iml" filepath="A:\Milo\app\app.iml" />
     </modules>
   </component>
 </project>

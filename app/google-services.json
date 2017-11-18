@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "1074229113144",
-    "firebase_url": "https://textdata-cf561.firebaseio.com",
-    "project_id": "textdata-cf561",
-    "storage_bucket": "textdata-cf561.appspot.com"
+    "project_number": "418390772405",
+    "firebase_url": "https://milostory-fa1e2.firebaseio.com",
+    "project_id": "milostory-fa1e2",
+    "storage_bucket": "milostory-fa1e2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1074229113144:android:016e7311f8449293",
+        "mobilesdk_app_id": "1:418390772405:android:a4ef1f0712ade7b6",
         "android_client_info": {
-          "package_name": "com.example.than.myapplication"
+          "package_name": "imwi.milostory"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1074229113144-vl2pa5tk0s5qjf7u7n1iptq6t23s4f37.apps.googleusercontent.com",
+          "client_id": "418390772405-6ictd8i0c7km18p2o8vsb1hd48k9ipfa.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBtDRDBJa_2rL-yRF3m_8fWOCle18x8zTE"
+          "current_key": "AIzaSyBN3UOWHvHCudsqHjjSIcOrF9FlS52F9wI"
         }
       ],
       "services": {

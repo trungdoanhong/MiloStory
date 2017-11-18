@@ -17,6 +17,10 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/color2"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add"/>
 
     </android.support.design.widget.AppBarLayout>
 

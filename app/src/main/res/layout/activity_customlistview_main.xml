@@ -2,11 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:background="@android:color/white"
-    android:layout_height="wrap_content"
+    android:layout_height="125dp"
     android:orientation="horizontal">
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="2dp" />
 
         <ImageView
             android:id="@+id/imvAva"
@@ -15,14 +12,16 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="7dp"
             android:layout_marginTop="3dp"
-            android:background="@drawable/avatar" />
+           />
 
             <TextView
                 android:id="@+id/tvName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="40dp"
                 android:text="Tin Tin Story"
                 android:textSize="20dp"
-                android:textColor="@color/color3" />
+                android:textColor="@color/color3"
+                android:onClick="onClick"/>
 </LinearLayout>

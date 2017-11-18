@@ -19,6 +19,16 @@ public class ImaGe {
 
     private List<Comment> Comments;
 
+    public ImaGe(String name, int id, Date captureDate, int likeNumber, String imageAddress, Bitmap image, List<Comment> comments) {
+        Name = name;
+        Id = id;
+        CaptureDate = captureDate;
+        LikeNumber = likeNumber;
+        ImageAddress = imageAddress;
+        Image = image;
+        Comments = comments;
+    }
+
     public void AddComment(Comment comment)
     {
         Comments.add(comment);

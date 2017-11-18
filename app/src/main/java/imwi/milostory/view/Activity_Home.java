@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toolbar;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,13 +20,17 @@ import imwi.milostory.adapter.ItemAdapter;
 import imwi.milostory.model.Item;
 
 public class Activity_Home extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
+
     private ListView lvItem;
     private List<Item> listItem = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.app_bar_home);
-    initData();
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        /*setSupportActionBar(myToolbar);*/
+         initData();
         //Bước 2: Tạo adapter ở ví dụ này chúng ta tự tạo một Adapter không phụ thuộc vào Adapter có sẵn
         ItemAdapter adapter = new ItemAdapter(listItem, this);
 
@@ -51,12 +56,11 @@ public class Activity_Home extends AppCompatActivity implements NavigationView.O
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch (item.getItemId()) {
                             case R.id.action_backhome:
-                                Intent intent = new Intent(Activity_Home.this, Activity_Home.class);
-                                startActivity(intent);
+                             return true;
                             case R.id.action_add:
-
+                             return true;
                             case R.id.action_gotouser:
-
+                            return true;
                         }
                         return true;
                     }

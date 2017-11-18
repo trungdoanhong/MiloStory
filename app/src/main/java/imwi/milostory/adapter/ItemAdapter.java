@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import imwi.milostory.R;
 import imwi.milostory.model.Item;
 
 /**
@@ -45,10 +46,10 @@ public class ItemAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
             LayoutInflater inflater = activity.getLayoutInflater();
-            convertView = inflater.inflate(R.layout.item_contact, parent, false);
+            convertView = inflater.inflate(R.layout.activity_customlistview_main, parent, false);
             ViewHolder holder = new ViewHolder();
-            holder.tvName = (TextView) convertView.findViewById(R.id.tv_name);
-            holder.ivAvatar = (ImageView) convertView.findViewById(R.id.iv_avatar);
+            holder.tvName = (TextView) convertView.findViewById(R.id.tvName);
+            holder.ivAvatar = (ImageView) convertView.findViewById(R.id.imvAva);
             convertView.setTag(holder);
         }
         ViewHolder holder = (ViewHolder) convertView.getTag();

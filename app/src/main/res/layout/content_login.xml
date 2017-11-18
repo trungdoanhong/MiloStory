@@ -48,6 +48,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/tvUsername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -55,7 +56,7 @@
                 android:textColor="@color/color3" />
 
             <EditText
-                android:id="@+id/ten"
+                android:id="@+id/edtusername"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -68,6 +69,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/tvpass"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -75,7 +77,7 @@
                 android:textColor="@color/color3" />
 
             <EditText
-                android:id="@+id/tuoi"
+                android:id="@+id/edtpass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
@@ -89,6 +91,7 @@
             android:visibility="gone">
 
             <TextView
+                android:id="@+id/tvconfirmPass"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -97,14 +100,14 @@
                 />
 
             <EditText
-                android:id="@+id/cfpass"
+                android:id="@+id/edtconfirmPass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
                 android:textColor="@color/color3" />
         </LinearLayout>
         <Button
-            android:id="@+id/btsubmit"
+            android:id="@+id/btnsubmit"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

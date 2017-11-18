@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="2dp" />
+
+    <ImageView
+        android:id="@+id/imvAva"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/avatar" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event: first day born"
+        android:textSize="20dp"
+        android:textColor="@color/color3" />
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 10/12/1999"
+        android:textSize="20dp"
+        android:textColor="@color/color3" />
+
+ <LinearLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal">
+     <TextView
+     android:id="@+id/tvHeart"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="15"
+     android:textSize="20dp"
+     android:textColor="@color/color3" />
+     <ImageView
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/heart"
+         />
+     <TextView
+         android:id="@+id/tvCmt"
+         android:layout_marginTop="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="20"
+         android:textSize="20dp"
+         android:textColor="@color/color3" />
+     <ImageView
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="10dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/cmt"
+         />
+ </LinearLayout>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit"/>
+        <ImageButton
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"/>
+    </LinearLayout>
+</LinearLayout>
